@@ -1,0 +1,85 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* common styles or utilities*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #2D25A0;
+}
+nav{
+    width: 1161px;
+    height: 44px;
+    padding-left: 156px;
+    padding-right: 123px;
+    padding-top: 42px;
+}
+/* Navigation bar */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 36px;
+    text-decoration: none;
+  }
+  .fa-sign-in-alt{
+    padding-right: 8px;
+  }
+  .login-button:hover {
+    color: #E02C6D;
+}
+
+/* Banner Style */
+.banner{
+    display: flex;
+    padding-top: 67px;
+    padding-left: 156px;
+    padding-right: 141px;
+    padding-bottom: 86px;
+}
+.football-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+}
+.live-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right,#f5397e, #E02C6D);
+}
+.live-button:hover{
+    background-image: linear-gradient(to right,#51a6f5, #0B83EE);
+}
+.fa-arrow-right{
+    padding-left: 8px;
+}
+.football-img img{
+    padding-left: 102px;
+    width: 556px;
+    height: 438px;
+    transition: 1s ease;
+}
+.football-img img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}

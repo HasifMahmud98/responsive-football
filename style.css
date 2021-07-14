@@ -184,6 +184,10 @@ ul {
     padding-top: 100px;
     padding-bottom: 50px;
 }
+.video-size{
+    width: 540px;
+    height: 315px;
+}
 .video h3{
     font-weight: bold;
     font-size: 28px;
@@ -196,6 +200,7 @@ ul {
     padding-top: 15px;
     padding-right: 15px;
     color: #6C6C6C;
+    text-align: justify;
 }
 .youtube-description{
     text-align: center;
@@ -272,4 +277,146 @@ ul {
     font-size: 18px;
     padding-left: 123px;
     padding-right: 123px;
+}
+
+/*--------------
+ Media Queries 
+ --------------*/
+/* Mobile Devices */
+@media only screen and (max-width:668px) {
+    /* Header section  */
+    header{
+        width: 360px;
+        height: 695px;
+    }
+    nav{
+        display: none;
+    }
+    .banner{
+        width: 278px;
+        height: 138px;
+        padding-left: 16px;
+        display: block;
+    }
+    .football-heading{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .football-desc{
+        padding-bottom: 50px;
+    }
+    .football-img img{
+        width: 329px;
+        height: 259px;
+        padding-top: 50px;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        transition: 1s ease;
+    }
+    .football-img img:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s ease;
+    }
+
+    /* main section */
+    .section-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 47px;
+        padding-bottom: 60px;
+    }
+    .player{
+        width: 330px;
+        height: 474px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    .player img{
+        width: 300px;
+        height: 256px;
+        padding: 15px;
+        -webkit-filter: brightness(50%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .player img:hover {
+        -webkit-filter: brightness(100%);
+    }
+
+    /* Highlight section */
+    .section-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15px;
+        padding-right: 16px;
+        padding-bottom: 10px;
+    }
+    .highlight-description {
+        width: 329px;
+        height: 299px;
+        padding-bottom: 29px;
+    }
+    .highlight-description > h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight-img{
+        display: none;
+    }
+
+    /* Youtube section */
+    .section-3{
+        display: none;
+    }
+    .youtube-video{
+        display: none;
+    } 
+
+    /* Follower count section */
+    .section-4{
+        display: none;
+    }
+
+}
+
+/* tablet devices */
+@media only screen and (min-width: 698px) and (max-width:992px) {
+    /* header{
+        width: 100%;
+    }
+    .left-items{
+        display: none;
+    }
+    .banner{
+        width: 278px;
+        height: 138px;
+        padding-left: 16px;
+        padding-top: 112px;
+        display: table-row;
+    }
+    .football-heading{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    ul{
+        display: none;
+    } */
 }

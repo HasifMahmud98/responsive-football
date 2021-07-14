@@ -181,8 +181,8 @@ ul {
     grid-row-gap: 30px;
     padding-left: 180px;
     padding-right: 210px;
-    padding-top: 50px;
-    padding-bottom: 165px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .video h3{
     font-weight: bold;
@@ -213,4 +213,63 @@ ul {
     margin: 0;
     padding-top: 8px;
     padding-bottom: 24px;
+}
+
+/* Follower count section */
+.section-4{
+    margin: 0 100px;
+    padding: 20px 0;
+    box-shadow: 1px 5px 20px rgba(35, 40, 65, 0.13);
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.count{
+    width: 33.33%;
+    text-align: center;
+}
+.count > h2{
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+    color: #0A0826;
+}
+.count > p{
+    margin: 0;
+    padding-top: 15px;
+    color: #6C6C6C;
+}
+
+/* Footer section */
+.footer-box{
+    width: 483px;
+    height: 213px;
+    padding-left: 475px;
+    padding-right: 481px;
+    padding-bottom: 10px;
+}
+.logo > img{
+    width: 483px;
+    height: 110px;
+}
+.icons{
+    width: 170px;
+    height: 32px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.icon{
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 16px;
+    color: #6C6C6C;
+    
+}
+.icon > i{
+    font-size: 20px;
+    padding: 8px;
+}
+.footer-box > p{
+    font-size: 18px;
+    padding-left: 123px;
+    padding-right: 123px;
 }

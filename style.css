@@ -85,7 +85,7 @@ ul {
 }
 
 /* main section */
-.container{
+.section-1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
@@ -110,10 +110,9 @@ ul {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
-
 .player img:hover {
     -webkit-filter: brightness(100%);
-    }
+}
 .layer-discription{
     width: 300px;
     height: 154px;
@@ -125,9 +124,93 @@ ul {
     padding: 15px;
     padding-top: 1px;
     padding-bottom: 10px;
+    color: #18191F;
 }
 .player p{
     margin: 0;
     padding-left: 15px;
     padding-right: 15px;
+    color: #6C6C6C;
+}
+
+/* Highlight section  */
+.section-2{
+    display: flex;
+    padding-left: 182px;
+    padding-right: 156px;
+    padding-bottom: 158px;
+}
+.highlight-description {
+    width: 469px;
+    height: 309px;
+    padding-top: 66px;
+    padding-right: 66px;
+    padding-bottom: 66px;
+}
+.highlight-description > h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+    color: #0A0826;
+}
+.highlight-description > p{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    color: #6C6C6C;
+}
+.highlight-img{
+    width: 567px;
+    height: 427px;
+    transition: 1s ease;
+}
+.highlight-img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+/* Youtube section */
+.youtube-video{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    padding-left: 180px;
+    padding-right: 210px;
+    padding-top: 50px;
+    padding-bottom: 165px;
+}
+.video h3{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 15px;
+    color: #18191F;
+}
+.video p{
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 15px;
+    color: #6C6C6C;
+}
+.youtube-description{
+    text-align: center;
+   width: 50%;
+   margin: 0 auto;
+}
+.youtube-description > h2{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+    color: #0A0826;
+}
+.youtube-description > p{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 24px;
 }
